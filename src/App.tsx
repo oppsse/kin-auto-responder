@@ -7,7 +7,7 @@ const templates = [
   "현대엘리베이터입니다. 문의하신 '{question}'에 대해 간단히 안내드립니다.",
   "현대엘리베이터는 승강기 교체부터 유지관리까지 원스톱으로 대응 가능한 종합 기업입니다.",
   "보다 정확한 안내를 위해 아래 링크를 통해 상담 요청해주세요. 감사합니다.",
-  "📞 0000-0000 / 📩 상담 링크: https://hyundaielevator.co.kr"
+  "📞 전화문의: 070-8015-1141 / 📩 상담 링크: bit.ly/현대엘리베이터설치문의"
 ];
 
 function generateAnswer(question: string) {
