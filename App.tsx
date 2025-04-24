@@ -3,7 +3,7 @@ import { Input } from './components/ui/input';
 import { Button } from './components/ui/button';
 import { Card, CardContent } from './components/ui/card';
 
-const OPENAI_API_KEY = 'sk-복사한_API_키를_여기에_붙여넣으세요';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY!;
 
 async function generateAnswer(question: string): Promise<string> {
   if (!question.trim()) return '';
